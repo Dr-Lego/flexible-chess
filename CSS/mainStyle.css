@@ -1,0 +1,16 @@
+
+
+html,body{
+    font-family:Noto Sans,Arial, Helvetica, sans-serif; font-weight: 600;
+    font-size:larger;
+    color:white;
+    background-color:#222222;
+    text-align:center;
+}
+
+canvas{
+    background-color: white;
+    margin-top: 50px;
+}
+
+

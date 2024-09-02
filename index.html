@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CheeseChess</title>
+    <!-- Stylesheets-->
+    <link rel="stylesheet" href="CSS/vars.css">
+    <link rel="stylesheet" href="CSS/mainStyle.css">
+    <link rel="stylesheet" href="assets/pieces/Skribble.css" id="PieceStyle">
+    <link rel="stylesheet" href="CSS/Board.css">
+    
+</head>
+<body>
+    <!-- <canvas id="board" class="board"></canvas> -->
+    <div id="board" class="board" oncontextmenu="return false;">
+    
+    </div>
+</body>
+    <!-- JavaScript & JSON files-->
+    <script type="text/javascript" src="JavaScript/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="JavaScript/settings.js"></script>
+    <script type="text/javascript" src="JavaScript/HTML.js"></script>
+    <script type="text/javascript" src="JavaScript/Game/Game.js"></script>
+    <script type="text/javascript" src="JavaScript/Game/Chessboard.js"></script>
+    <script type="text/javascript" src="JavaScript/Game/Move-Generation.js"></script>
+
+    <!-- Rules & Variants-->
+    <script type="text/javascript" src="JavaScript/Game/Rules/standard.js"></script>
+
+    <!-- main-->
+    <script type="text/javascript" src="JavaScript/Game/main.js"></script>
+    
+</html>
+
+<!--
+a = $("piece[position='55']")
+a.animate({left: '100px', top: '0px'},{queue:false});
+-->
