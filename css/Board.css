@@ -1,0 +1,87 @@
+.board {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    border-radius: 0.5%;
+    background-size: cover;
+    cursor: pointer;
+    width: var(--board-size);
+    height: var(--board-size);
+}
+
+#squares {
+    width: 100%;
+    height: 100%;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.coordinate-light, .coordinate-dark {
+    stroke-width: 0.3;
+    user-select: none;
+}
+
+.coordinate-light {
+    fill: var(--light-square);
+    stroke: var(--light-square);
+}
+
+.coordinate-dark {
+    fill: var(--dark-square);
+    stroke: var(--dark-square);
+}
+
+.move-help:hover {
+    fill: rgba(20, 85, 30, 0.5);
+}
+
+piece {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 12.5%;
+    height: 12.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+}
+
+square {
+    width: var(--square-size);
+    height: var(--square-size);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+square.selected {
+    background-color: rgba(20, 85, 30, 0.5);
+}
+
+square.move-dest, square.take.move-dest {
+    background-size: 100% 100%;
+    background-position: center;
+    transition: background-size 0.2s;
+}
+
+square.move-dest {
+    background-image: radial-gradient(rgba(20, 85, 30, 0.5) 19%, rgba(0, 0, 0, 0) 20%);
+}
+
+square.take.move-dest {
+    background-image: radial-gradient(transparent 0%, transparent 75%, rgba(20, 85, 0, 0.3) 76%);
+}
+
+square.move-dest:hover {
+    background-size: 125% 125%;
+}
+
+square.take.move-dest:hover {
+    background-size: 105% 105%;
+}
