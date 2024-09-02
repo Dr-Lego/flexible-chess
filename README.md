@@ -1,7 +1,7 @@
 # (Unfinished) Chess Game with Flexible Rule Declaration
 
 
-This project implements a chess game with a unique, flexible rule declaration system. It allows for easy creation of chess variants by modifying JSON-based rule definitions. The game features a custom board representation and multiple board and piece styles sourced from Lichess. Mostly a proof of concept, not all chess rules are implemented yet, but I (probably) won't continue it.
+This project implements a chess game with a unique, flexible rule declaration system. It allows for easy creation of chess variants by modifying JSON-based rule definitions. The game features a custom board representation and multiple board and piece styles sourced from Lichess. However, this is mostly a proof of concept, not all chess rules are implemented yet and I (probably) won't continue it.
 
 ## How It Works
 
