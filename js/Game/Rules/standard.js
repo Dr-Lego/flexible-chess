@@ -7,10 +7,10 @@ const standardRules = {
     names: [
       "rnbqkbnr",
       "pppppppp",
-      "-Q------",
-      "----B---",
       "--------",
-      "R-------",
+      "--------",
+      "--------",
+      "--------",
       "PPPPPPPP",
       "RNBQKBNR"
     ]
